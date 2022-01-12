@@ -6,7 +6,9 @@
 *.lo
 *.o
 *.obj
+data
 
+.mypy_cache
 build
 
 # Precompiled Headers

@@ -1,0 +1,7 @@
+project(OpenCV-Learn)
+cmake_minimum_required(VERSION 3.19)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+find_package(OpenCV REQUIRED)
+add_executable(box src/box.cpp)
+target_link_libraries(box ${OpenCV_LIBS})
