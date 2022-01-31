@@ -3,7 +3,8 @@ cmake_minimum_required(VERSION 3.19)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 find_package(OpenCV REQUIRED)
-find_package(absl)
+set(absl_DIR "C:/Users/mix/vcpkg/installed/x86-windows/share/absl")
+find_package(absl REQUIRED)
 include_directories(
     /usr/local/include
     include
